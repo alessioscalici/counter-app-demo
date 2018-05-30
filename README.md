@@ -2,14 +2,14 @@
 
 This is a simple counter application.
 
-###Notes:
+### Notes:
 
 - The project was bootstrapped using create-react-app, so the Webpack bundler is included
 - Some basic CSS was added, just to make it less painful to watch :) BEM convention was used
 - Tests were made using Jest and Enzyme
 - React Router was used for navigation
 
-###Specifications:
+### Specifications:
 
 - First page:
   - The page should contain a counter, +, - buttons and a navigation to navigate to the second page.
@@ -25,7 +25,7 @@ This is a simple counter application.
 - A bundler needs to be in place, which will output production ready code into a "dist" folder.
 (preferably Webpack but you can use something else as well)
 
-####Technology stack to be used:
+#### Technology stack to be used:
 
 - React
 - Redux
