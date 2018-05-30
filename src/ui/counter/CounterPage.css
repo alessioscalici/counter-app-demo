@@ -1,0 +1,33 @@
+
+.CounterPage .CounterPage__title {
+  margin-left: 30px;
+  color: #1d2835;
+}
+
+.CounterPage .CounterPage__counter {
+  margin-left: 30px;
+}
+
+.CounterPage .CounterPage__plus-btn,
+.CounterPage .CounterPage__minus-btn {
+  height: 40px;
+  width: 40px;
+  font-size: 30px;
+  border-radius: 8px;
+  border-color: #85d3f9;
+  background: #85d3f9;
+}
+
+.CounterPage .CounterPage__plus-btn:disabled,
+.CounterPage .CounterPage__minus-btn:disabled {
+  border-color: #cccccc;
+  background: #cccccc;
+  color: #888888;
+}
+
+.CounterPage .CounterPage__counter-value {
+  min-width: 60px;
+  margin: 0 10px;
+  font-size: 30px;
+  text-align: center;
+}

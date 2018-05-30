@@ -1,0 +1,25 @@
+.NavigationBar {
+  background: #1d2835;
+  color: #ffffff;
+}
+
+.NavigationBar .NavigationBar__list {
+  display: flex;
+  height: 30px;
+  margin: 0;
+  list-style: none;
+  align-items: center;
+}
+
+.NavigationBar .NavigationBar__list-item {
+  margin-right: 10px;
+}
+
+.NavigationBar .NavigationBar__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.NavigationBar .NavigationBar__link:hover {
+  text-decoration: underline;
+}
